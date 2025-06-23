@@ -20,15 +20,15 @@
         {
           "type": "spotify",
           "style": "powerline",
-          "powerline_symbol": "",
-          "foreground": "#ffffff",
+          "powerline_symbol": "\ue0B0",
+          "foreground": "#53c4b5",
           "background": "#1BD760",
           "properties": {
             "playing_icon": " ",
-            "paused_icon": " ",
+            "paused_icon": "",
             "stopped_icon": " "
           },
-          "template" : "{{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} - {{ .Track }}{{ end }}"
+          "template": "{{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} - {{ .Track }}{{ end }}"
         },
         {
           "type": "path",
@@ -82,7 +82,7 @@
         {
           "type": "os",
           "style": "diamond",
-          "background": "#1E1E1E",
+          "background": "darkGray",
           "foreground": "#8AFF80",
           "leading_diamond": "\ue0B6",
           "trailing_diamond": "\ue0B4",
