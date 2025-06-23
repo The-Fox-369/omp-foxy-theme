@@ -28,7 +28,7 @@
             "paused_icon": " ",
             "stopped_icon": " "
           },
-          "template" : {{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} - {{ .Track }}{{ end }}
+          "template" : "{{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} - {{ .Track }}{{ end }}"
         },
         {
           "type": "path",
