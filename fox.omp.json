@@ -18,6 +18,18 @@
           "template": "  {{ .Name }} "
         },
         {
+          "type": "spotify",
+          "style": "powerline",
+          "powerline_symbol": "\ue0B0",
+          "foreground": "#53c4b5",
+          "background": "#1BD760",
+          "properties": {
+            "playing_icon": " ",
+            "paused_icon": "",
+            "stopped_icon": " "
+          }
+        },
+        {
           "type": "path",
           "style": "powerline",
           "background": "#FF4C4C",
