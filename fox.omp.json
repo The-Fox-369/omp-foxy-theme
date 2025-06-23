@@ -20,14 +20,14 @@
         {
           "type": "spotify",
           "style": "powerline",
-          "powerline_symbol": "\ue0B0",
-          "foreground": "#53c4b5",
+          "powerline_symbol": "",
+          "foreground": "#ffffff",
           "background": "#1BD760",
           "properties": {
             "playing_icon": " ",
-            "paused_icon": "",
+            "paused_icon": " ",
             "stopped_icon": " "
-          }
+          },
           "template" : {{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} - {{ .Track }}{{ end }}
         },
         {
